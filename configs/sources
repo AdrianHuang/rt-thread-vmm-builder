@@ -1,0 +1,7 @@
+# source defintions
+
+kernel_version := linux-3.8.13
+rtt_folder := rt-thread-for-vmm
+
+FETCH_CMD_kernel := git clone https://github.com/AdrianHuang/linux-3.8.13
+FETCH_CMD_rtt := git clone https://github.com/AdrianHuang/rt-thread-for-vmm
