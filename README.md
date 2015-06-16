@@ -6,6 +6,11 @@ The builder generates a couples of files listed in the following:
     - A kernel moudule (/root/rtvmm.ko)
     - A RT-Thread image file (/vmm/rtthread.bin)
     
+
+# Platform Support
+  * Realview Platform Baseboard A8
+  * Beaglebone Black
+
 # Prerequisites
 The building environment is based on Ubuntu 14.04.2 LTS (x86_64).
 
@@ -31,3 +36,6 @@ The building environment is based on Ubuntu 14.04.2 LTS (x86_64).
 ```
     insmod /root/rtvmm.ko
 ```
+
+# Reference
+[Official RT-Thread GIT Repository](https://github.com/RT-Thread/rt-thread)
